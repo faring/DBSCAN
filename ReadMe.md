@@ -17,6 +17,16 @@ M. Ester, H. P. Kriegel, J. Sander, X. A. Xu, "A Density-based Algorithm for Dis
 
 (2) After running the program, you will see the following output in the console as Eps and MinPts already set to a fixed value. 
 
+    INPUT:
+    Tuples#: 300
+    Eps: 2 
+    MinPts: 5
+
+    OUTPUT:
+    cluster 0: 98 points
+    cluster 1: 100 points
+    cluster 2: 100 points
+    Noise: 2 points
     
 (3) The program will also 
 
