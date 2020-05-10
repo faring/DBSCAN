@@ -1,41 +1,27 @@
 
-# Association Rule Mining using Apriori
+# DBSCAN: A Density-based Spatial Clustering of Applications with Noise
 
-Apriori is a classical algorithm for mining association rules. This code for mining association rules using Apriori algorithm is written in Python 3.
+Clustering is an unsupervised learning algorithm that divides the dataset into meaningful groups called clusters. The goal is to minimize intra-cluster differences and maximize inter-cluster differences. As the clustering of dataset depends on the type of application, there are a number of categories of clustering algorithms, such as partitional, hierarchical, density-based and grid-based clustering. 
+
+In density-based clustering technique, clusters are dense regions in a space that is separated by regions of lower density. Here, a dense cluster is a density connected region in space, i.e. the density of points in that region is greater than a threshold. As the size of a cluster can grow based on the dense connectivity, density-based technique discovers clusters of arbitrary shape which is important for a spatial data clustering.
+
+DBSCAN stands for Density-Based Spatial Clustering of Applications with Noise. DBSCAN algorithm is designed to discover clusters of arbitrary shapes in large scale spatial datasets with noise based on the notion of neighbor’s density. Here, density-based notion means that a cluster consists of a maximal set of density connected points, i.e. spatially connected points. You can check the following paper to know more about DBSCAN.
+
+M. Ester, H. P. Kriegel, J. Sander, X. A. Xu, "A Density-based Algorithm for Discovering Clusters in Large Spatial Databases with Noise", KDD, 1996, 96, 226–231.
 
 # How to run the code:
 
-(1) First, download and unzipped the folder and enter that folder. Then run the following command from a terminal to run the code: (Required dataset 'Play_Tennis_Data_Set.csv' should be in the same folder)
+(1) First, download and unzipped the folder and enter that folder. Then run the following command from a terminal to run the code: (Required dataset 'test.csv' should be in the same folder)
 
-    $ python3 AprioriRuleMining.py
+    $ python3 DBSCAN.py
 
-(2) After running the program, you will see the following user prompt to enter minimum support and minimum confidence one at a time.
+(2) After running the program, you will see the following output in the console as Eps and MinPts already set to a fixed value. 
 
-    Enter the minimum support (fraction value): 
-    Enter the minimum confidence (fraction value): 
+    
+(3) The program will also 
 
-(3) Here, user input for both minimum support and minimum confidence are fraction value. For example, if we enter '0.3' as minimum support and '0.6' as minimum confidence and then press Enter key on the keyboard, then mined association rules from dataset will be displayed like below:
 
-    User Input:
-
-     Support: 0.3
-     Confidence: 0.6
-
-    Rules:
-
-     Rule#1: {PlayTennis=P} => {Windy=FALSE}
-     (Support=0.43, Confidence=0.67)
-
-     Rule#2: {Windy=FALSE} => {PlayTennis=P}
-     (Support=0.43, Confidence=0.75)
-
-     Rule#3: {PlayTennis=P} => {Humidity=normal}
-     (Support=0.43, Confidence=0.67)
-
-     Rule#4: {Humidity=normal} => {PlayTennis=P}
-     (Support=0.43, Confidence=0.86)
-
-   Thank you!
+Thank you!
 
 # Contact:
 Md. Mahbub Alam (emahbub.cse@gmail.com)
