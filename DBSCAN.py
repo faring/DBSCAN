@@ -1,9 +1,8 @@
-#============================================#
-# DBSCAN: A Density-based Spatial Clustering #
-#         of Applications with Noise         #
-# Author: Md Mahbub Alam                     #  
-# Email: emahbub.cse@gmail.com               #
-#============================================#
+#=======================================================================#
+# DBSCAN: A Density-based Spatial Clustering of Applications with Noise #
+# Author: Md Mahbub Alam                                                #  
+# Email: emahbub.cse@gmail.com                                          #
+#=======================================================================#
 
 import math
 import matplotlib.pyplot as plt 
