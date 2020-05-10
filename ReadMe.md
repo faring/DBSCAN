@@ -11,7 +11,7 @@ M. Ester, H. P. Kriegel, J. Sander, X. A. Xu, "A Density-based Algorithm for Dis
 
 # How to run the code:
 
-(1) First, download and unzipped the folder and enter that folder. Then run the following command from a terminal to run the code: (Required dataset 'test.csv' should be in the same folder)
+(1) First, download and unzipped the folder and enter that folder. Then run the following command from a terminal to run the code: (Required dataset 'test.csv' is available in the same folder)
 
     $ python3 DBSCAN.py
 
@@ -23,13 +23,12 @@ M. Ester, H. P. Kriegel, J. Sander, X. A. Xu, "A Density-based Algorithm for Dis
     MinPts: 5
 
     OUTPUT:
-    cluster 0: 98 points
-    cluster 1: 100 points
-    cluster 2: 100 points
+    Cluster 0: 98 points
+    Cluster 1: 100 points
+    Cluster 2: 100 points
     Noise: 2 points
     
-(3) The program will also 
-
+(3) A 2D plot of the data along with colored points representing the clusters and noises will be displayed to you. As I have used 'Matplotlib' python library to plot the clusters and noises, you need to install 'Matplotlib' in your computer.
 
 Thank you!
 
