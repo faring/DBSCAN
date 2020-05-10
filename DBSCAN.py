@@ -7,7 +7,6 @@
 import math
 import matplotlib.pyplot as plt 
 import random
-import datetime as dt
 
 visited = list()
 clusters = dict()
