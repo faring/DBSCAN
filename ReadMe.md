@@ -15,7 +15,7 @@ M. Ester, H. P. Kriegel, J. Sander, X. A. Xu, "A Density-based Algorithm for Dis
 
     $ python3 DBSCAN.py
 
-(2) After running the program, you will see the following output in the console as Eps and MinPts already set to a fixed value. 
+(2) After running the program, you will see the following output in the console as Eps and MinPts already set to a fixed value.
 
     INPUT:
     Tuples#: 300
