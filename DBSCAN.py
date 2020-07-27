@@ -126,7 +126,6 @@ def Start():
 	DBSCAN(dataset, eps, minPts)
 	
 	print('\nOUTPUT:')
-	DBSCAN(dataset, eps, minPts)
 	PrintClusterDetails(clusters, noise)
 	PlotClusters(clusters, noise)
 	print('\n')
